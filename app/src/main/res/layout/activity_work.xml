@@ -7,18 +7,18 @@
     tools:context=".WorkActivity">
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/tvNameWork"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Ton nom connard"
-        app:layout_constraintBottom_toTopOf="@+id/tvDate"
+        app:layout_constraintBottom_toTopOf="@+id/tvDateWork"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
-        android:id="@+id/tvDate"
+        android:id="@+id/tvDateWork"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date"
@@ -34,7 +34,7 @@
 
 
     <EditText
-        android:id="@+id/etPlace"
+        android:id="@+id/etPlaceWork"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="350dp"
@@ -44,10 +44,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDateWork" />
 
     <EditText
-        android:id="@+id/etTime"
+        android:id="@+id/etTimeWork"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300dp"
@@ -57,10 +57,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPlace" />
+        app:layout_constraintTop_toBottomOf="@+id/etPlaceWork" />
 
     <EditText
-        android:id="@+id/etTimeSupp"
+        android:id="@+id/etTimeSuppWork"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="heuresSupp"
@@ -68,7 +68,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_record"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etTime" />
+        app:layout_constraintTop_toBottomOf="@+id/etTimeWork" />
 
     <Button
         android:id="@+id/btn_record"
