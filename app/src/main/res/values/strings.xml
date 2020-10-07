@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DDD</string>
+
+    <!-- REGISTER -->
+    <string name="input_error_email_invalid">enter a valid email!</string>
+    <string name="Registered_Successfully">Registered Successfully</string>
+    <string name="Please_enter_name">Please enter name!</string>
+    <string name="Please_enter_email">Please enter email…</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="error">error_authentication_canceled</string>
+    <string name="no_network">no_network</string>
+    <string name="unknown_error">unknown_error</string>
+    <string name="Already_Register">"Already Register ? Login Here"</string>
+</resources>

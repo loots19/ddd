@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- REGISTER ACTIVITY -->
+    <dimen name="TV_tittle_text_size">50sp</dimen>
+    <dimen name="margin_top">50dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="TV_sentence_margin_top_">10dp</dimen>
+    <dimen name="TV_sentence_text_size">15sp</dimen>
+    <dimen name="ET_text_size">20sp</dimen>
+    <dimen name="ET_margin_top">20dp</dimen>
+    <dimen name="layout_width">395dp</dimen>
+    <dimen name="button_margin_top">110dp</dimen>
+    <dimen name="button_margin_bottom">50dp</dimen>
+</resources>
